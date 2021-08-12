@@ -1,0 +1,16 @@
+@import '_variables';
+
+body {
+  font-family: var(--font-primary);
+  font-size: var(--text-base-size);
+  font-weight: var(--font-weight);
+  font-stretch: var(--font-stretch);
+  font-style: var(--font-style);
+  line-height: var(--line-height);
+  letter-spacing: var(--letter-spacing);
+}
+
+input,
+label {
+  font-family: var(--font-primary);
+}

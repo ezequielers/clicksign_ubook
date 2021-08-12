@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home.vue listing with contacts matchs snapshot 1`] = `
+<div class="home">
+  <div class="header"><img id="logo" src="../assets/imgs/ic-logo.svg" alt="Ubook logo with pink coloring"> <button type="button" name="criar-contato" class="add-button">
+      + Criar contato
+    </button>
+    <!---->
+    <!---->
+    <div class="input-icon"><input type="text" name="search" placeholder="Buscar..." aria-label="Busque pela agenda"> <img src="../assets/imgs/ic-search.svg" alt=""></div>
+  </div>
+  <div class="home-content-wrapper">
+    <table>
+      <tr>
+        <th></th>
+        <th>Contatos</th>
+        <th>E-mail</th>
+        <th>Telefone</th>
+        <th></th>
+      </tr>
+      <tr id="0" class="">
+        <td><span>
+            E
+          </span></td>
+        <td>Ezequiel Schneider</td>
+        <td>eequiel@email.com</td>
+        <td>999999999</td>
+        <td class="action-icons"><img src="../assets/imgs/ic-edit.svg" alt="A pencil icon"> <img src="../assets/imgs/ic-delete.svg" alt="A trash can icon"></td>
+      </tr>
+      <tr id="1" class="">
+        <td><span>
+            C
+          </span></td>
+        <td>ClickSign</td>
+        <td>cliente@clicksign.com</td>
+        <td>999999999</td>
+        <td class="action-icons"><img src="../assets/imgs/ic-edit.svg" alt="A pencil icon"> <img src="../assets/imgs/ic-delete.svg" alt="A trash can icon"></td>
+      </tr>
+    </table>
+  </div>
+</div>
+`;
+
+exports[`Home.vue listing without any contact matchs snapshot 1`] = `
+<div class="home">
+  <div class="header"><img id="logo" src="../assets/imgs/ic-logo.svg" alt="Ubook logo with pink coloring">
+    <!---->
+    <!---->
+    <!---->
+    <div class="input-icon"><input type="text" name="search" placeholder="Buscar..." aria-label="Busque pela agenda"> <img src="../assets/imgs/ic-search.svg" alt=""></div>
+  </div>
+  <div class="no-contacts-wrapper"><img id="book" src="../assets/imgs/ic-book.svg" alt="A opened book illustration with grey coloring">
+    <p class="no-contact-text">Nenhum contato foi criado ainda.</p> <button type="button" name="criar-contato" class="add-button"><img src="../assets/imgs/ic-plus.svg" alt="A plus icon">
+      Criar contato
+    </button>
+  </div>
+</div>
+`;
